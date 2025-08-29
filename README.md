@@ -102,6 +102,7 @@ Access the application at http://localhost:8501/ in your web browser.
 The app provides a sidebar with dropdown options to explore each component of the project.
 
 ## 5. Project Structure
+Project_name/
 ├── app/
 │   └── app.py
 ├── data/
@@ -119,5 +120,4 @@ The app provides a sidebar with dropdown options to explore each component of th
 │   └── 4_summarization_prototyping.ipynb
 ├── .env
 ├── .gitignore
-├── pylintrc.txt
 └── requirements.txt
