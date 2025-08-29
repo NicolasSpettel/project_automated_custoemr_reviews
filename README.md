@@ -1,7 +1,7 @@
-## Project NLP | Business Case: Automated Customer Reviews
-This project develops an automated system for analyzing customer reviews using Natural Language Processing (NLP). It tackles three main tasks: sentiment classification, product category clustering, and generative summarization, all accessible through a local web application.
+# Project NLP | Business Case: Automated Customer Reviews
+### This project develops an automated system for analyzing customer reviews using Natural Language Processing (NLP). It tackles three main tasks: sentiment classification, product category clustering, and generative summarization, all accessible through a local web application.
 
-1. Project Goal
+## 1. Project Goal
 The project's objective is to automate the analysis of product reviews by:
 
 Classifying reviews as positive, negative, or neutral.
@@ -12,7 +12,7 @@ Summarizing insights into a human-readable blog post format.
 
 All components are integrated into a user-friendly Streamlit web application.
 
-2. Setup and Installation
+## 2. Setup and Installation
 Prerequisites
 Python: Version 3.8 or higher.
 
@@ -44,7 +44,7 @@ Bash
 pip install -r requirements.txt
 Note: Some packages required pip as they may not be available on conda.
 
-3. Data and Models
+## 3. Data and Models
 Datasets
 The project uses the Consumer Reviews of Amazon Products dataset from Kaggle.
 
@@ -57,7 +57,7 @@ Sentiment Classification: A fine-tuned cardiffnlp/twitter-roberta-base-sentiment
 
 Hugging Face Hub: https://huggingface.co/Nicolas-Spettel/cardiffnlp_twitter-roberta-base-sentiment-latest
 
-4. How to Run the Code
+## 4. How to Run the Code
 This section outlines the steps to reproduce the analysis and run the web application.
 
 Step 1: Data Preparation and EDA
@@ -101,7 +101,7 @@ Access the application at http://localhost:8501/ in your web browser.
 
 The app provides a sidebar with dropdown options to explore each component of the project.
 
-5. Project Structure
+## 5. Project Structure
 .
 ├── app/
 │   └── app.py
