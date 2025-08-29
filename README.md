@@ -103,7 +103,8 @@ The app provides a sidebar with dropdown options to explore each component of th
 
 ## 5. Project Structure
 .
-├── app/ \n
+├── app/ 
+
 │   └── app.py
 ├── data/
 │   ├── mlflow/
