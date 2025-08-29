@@ -102,53 +102,6 @@ Access the application at http://localhost:8501/ in your web browser.
 The app provides a sidebar with dropdown options to explore each component of the project.
 
 ## 5. Project Structure
-Of course. I will update the .gitignore to include image files and also adjust the directory structure to reflect the changes in the docs folder.
-
-Here is the revised .gitignore file, now including common image file extensions to prevent them from being committed to the repository:
-
-Code snippet
-
-# Data and preprocessing
-data/processed/
-data/mlflow/
-data/raw/
-
-# Jupyter Notebook specifics
-.ipynb_checkpoints/
-
-# Python and environment files
-__pycache__/
-*.pyc
-venv/
-env/
-conda.lock
-
-# Machine Learning and Model-Related Files
-mlruns/
-*.db
-*.pt
-*.bin
-*.safetensors
-
-# IDE and OS-specific files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Sensitive Information
-.env
-
-# Images and presentations
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.svg
-*.pdf
-The updated project structure reflecting the changes you mentioned would look like this:
-
-5. Project Structure
 ├── app/
 │   └── app.py
 ├── data/
