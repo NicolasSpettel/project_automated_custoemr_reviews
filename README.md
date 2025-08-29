@@ -1,6 +1,4 @@
-Okay, here is the full README file formatted in Markdown (.md) as requested. This version uses Markdown headers and formatting to create a clear, structured, and easy-to-read document.
-
-Project NLP | Business Case: Automated Customer Reviews
+## Project NLP | Business Case: Automated Customer Reviews
 This project develops an automated system for analyzing customer reviews using Natural Language Processing (NLP). It tackles three main tasks: sentiment classification, product category clustering, and generative summarization, all accessible through a local web application.
 
 1. Project Goal
