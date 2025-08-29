@@ -1,0 +1,44 @@
+# Data and preprocessing
+data/processed/
+data/mlflow/
+data/raw/
+
+# Jupyter Notebook specifics
+.ipynb_checkpoints/
+
+# Python and environment files
+__pycache__/
+*.pyc
+venv/
+env/
+conda.lock
+
+# Machine Learning and Model-Related Files
+mlruns/
+*.db
+*.pt
+*.bin
+*.safetensors
+
+# IDE and OS-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Sensitive Information
+.env
+docs/Deployment.txt
+docs/final_model_old.txt
+models/
+pylintrc.txt
+
+
+# Images and presentations
+images_infos/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.pdf

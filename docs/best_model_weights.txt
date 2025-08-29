@@ -1,0 +1,1 @@
+Trial 18 finished with value: 0.8151919705294334 and parameters: {'learning_rate': 2.9443750826822793e-05, 'train_batch_size': 8, 'epochs': 5, 'weight_decay': 0.09960856196239078, 'scheduler': 'cosine'}. Best is trial 18 with value: 0.8151919705294334.

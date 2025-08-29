@@ -1,0 +1,6 @@
+cardiffnlp/twitter-roberta-base-sentiment-latest
+• Overall Accuracy: 0.884
+• Per-Class Error Rates:
+  - Negative: 0.32
+  - Neutral: 0.71
+  - Positive: 0.06
