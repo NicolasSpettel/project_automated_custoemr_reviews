@@ -106,17 +106,31 @@ The app provides a sidebar with dropdown options to explore each component of th
 ├── app/ 
 
 │   └── app.py
+
 ├── data/
+
 │   ├── mlflow/
+
 │   ├── processed/
+
 │   └── raw/
+
 ├── images_infos/
+
 ├── notebooks/
+
 │   ├── 1_eda_and_preprocessing.ipynb
+
 │   ├── 2_sentiment_classification_exploration_mlflow.ipynb
+
 │   ├── 2.5_sentiment_classification_comparison.ipynb
+
 │   ├── 3_clustering_analysis.ipynb
+
 │   └── 4_summarization_prototyping.ipynb
+
 ├── .env
+
 ├── .gitignore
+
 └── requirements.txt
