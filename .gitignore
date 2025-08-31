@@ -1,10 +1,10 @@
 # Folders
 ######################
 # folder to ignore
-/images_infos/
+/images_infos/*
 /mlruns
 /models
-/docs
+/docs/*
 /data
 /tests
 
