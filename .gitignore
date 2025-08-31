@@ -7,6 +7,8 @@
 /docs/*
 /data
 /tests
+/mlflow
+notebooks/old
 
 # folder to  keep
 !/images_infos/linter_scores
@@ -45,3 +47,4 @@ venv/
 .venv/
 
 strategy.txt
+how_to_run_presentation
