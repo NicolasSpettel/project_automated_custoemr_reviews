@@ -28,20 +28,21 @@ Environment Setup
 Clone the repository:
 
 Bash
-
+```
 git clone <your_repo_url>
 cd <your_project_directory>
 Create and activate the Conda environment:
-
+```
 Bash
-
+```
 conda create -n nlp_reviews python=3.8
 conda activate nlp_reviews
 Install dependencies from requirements.txt:
-
+```
 Bash
-
+```
 pip install -r requirements.txt
+```
 Note: Some packages required pip as they may not be available on conda.
 
 ## 3. Data and Models
@@ -102,6 +103,7 @@ Access the application at http://localhost:8501/ in your web browser.
 The app provides a sidebar with dropdown options to explore each component of the project.
 
 ## 5. Project Structure
+```
 Project_name/
 ├── app/
 │   └── app.py
@@ -121,3 +123,5 @@ Project_name/
 ├── .env
 ├── .gitignore
 └── requirements.txt
+```
+Presentation can be found here: https://docs.google.com/presentation/d/1y3tDSu5Y0H8XKxdz6JNLATCo3cdCjmP-R1BlIAuhdEA/edit?slide=id.g3799e8924d9_0_38#slide=id.g3799e8924d9_0_38
