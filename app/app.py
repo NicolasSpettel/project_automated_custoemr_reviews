@@ -154,7 +154,7 @@ def classify_product_category(text: str) -> Dict[str, Any]:
         }
     except Exception as e:
         return {
-            "category": "Electronics & Technology",
+            "category": "Electronics & Tecgitnology",
             "confidence": 0.5,
             "error": str(e)
         }

@@ -1,44 +1,47 @@
-# Data and preprocessing
-data/processed/
-data/mlflow/
-data/raw/
+# Folders
+######################
+# folder to ignore
+/images_infos/
+/mlruns
+/models
+/docs
+/data
+/tests
 
-# Jupyter Notebook specifics
-.ipynb_checkpoints/
+# folder to  keep
+!/images_infos/linter_scores
+!/images_infos/reviews_by_category
+!/docs/final_model.txt
 
-# Python and environment files
-__pycache__/
-*.pyc
-venv/
-env/
-conda.lock
-
-# Machine Learning and Model-Related Files
-mlruns/
-*.db
-*.pt
-*.bin
-*.safetensors
+# Another example for build outputs
+/dist/
+/build/
 
 # IDE and OS-specific files
+######################
 .DS_Store
-Thumbs.db
-.vscode/
 .idea/
+.vscode/
 
-# Sensitive Information
+# Environment files
+######################
+# Don't commit local environment variables
 .env
-docs/Deployment.txt
-docs/final_model_old.txt
-models/
-pylintrc.txt
+.flaskenv
 
+# Log files
+######################
+*.log
 
-# Images and presentations
-images_infos/
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.svg
-*.pdf
+# Python-specific files
+######################
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+
+strategy.txt
